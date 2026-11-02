@@ -1,0 +1,21 @@
+{
+  "name": "flow-outliner-demo",
+  "private": true,
+  "description": "Remotion project for the Flow Outliner demo video (footage captured from a real Obsidian by capture/capture.py).",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Demo out/flow-outliner-demo.mp4",
+    "render:gif": "remotion render src/index.ts DemoShort out/flow-outliner-demo.gif --codec=gif --every-nth-frame=2 --scale=0.5"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

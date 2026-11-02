@@ -1,0 +1,10 @@
+{
+  "id": "flow-outliner",
+  "name": "Flow Outliner",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "A Workflowy-style infinite outliner: zoom into any bullet, collapse, complete, search and drag items. Your outline stays a plain Markdown list.",
+  "author": "Nicolas",
+  "isDesktopOnly": false,
+  "authorUrl": "https://github.com/NgrimaldiN"
+}

@@ -1,0 +1,2661 @@
+{
+ "width": 1440,
+ "height": 810,
+ "shots": [
+  {
+   "src": "frames/0000.jpg",
+   "dur": 75,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1300,
+    "y": 700
+   },
+   "caret": null,
+   "caption": "One infinite outline, right inside Obsidian",
+   "scene": "intro",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0001.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 590.6875,
+    "y": 209.5703125
+   },
+   "caret": null,
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0002.jpg",
+   "dur": 14,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 590.6875,
+    "y": 209.5703125
+   },
+   "caret": {
+    "x": 576.6875,
+    "y": 200.0703125,
+    "h": 19
+   },
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0003.jpg",
+   "dur": 28,
+   "keys": [
+    "⌘",
+    "↑"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 590.6875,
+    "y": 209.5703125
+   },
+   "caret": {
+    "x": 576.6875,
+    "y": 200.0703125,
+    "h": 19
+   },
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0004.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 662.9140625,
+    "y": 465.5078125
+   },
+   "caret": {
+    "x": 576.6875,
+    "y": 200.0703125,
+    "h": 19
+   },
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0005.jpg",
+   "dur": 10,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 662.9140625,
+    "y": 465.5078125
+   },
+   "caret": {
+    "x": 648.9140625,
+    "y": 456.0078125,
+    "h": 19
+   },
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0006.jpg",
+   "dur": 30,
+   "keys": [
+    "⌘",
+    "↑"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 662.9140625,
+    "y": 465.5078125
+   },
+   "caret": {
+    "x": 648.9140625,
+    "y": 456.0078125,
+    "h": 19
+   },
+   "caption": "⌘↑ / ⌘↓ collapse and expand",
+   "scene": "collapse",
+   "cam": {
+    "s": 1.25,
+    "x": 799,
+    "y": 209.8671875
+   }
+  },
+  {
+   "src": "frames/0007.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 648.9140625,
+    "y": 456.0078125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0008.jpg",
+   "dur": 12,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 630.8515625,
+    "y": 481.6015625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0009.jpg",
+   "dur": 10,
+   "keys": [
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 539,
+    "y": 506.7553125,
+    "h": 20.480000000000004
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0010.jpg",
+   "dur": 10,
+   "keys": [
+    "⇥"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 565,
+    "y": 506.7553125,
+    "h": 20.480000000000004
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0011.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 573.7734375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0012.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 582.2109375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0013.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 590.7265625,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0014.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 596.5078125,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0015.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 605.6875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0016.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 609.875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0017.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 615.375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0018.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 624.3984375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0019.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 628.5859375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0020.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 638.1015625,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0021.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 646.6171875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0022.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 654.9921875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0023.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 663.4296875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0024.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 667.6171875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0025.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 675.6796875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0026.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 684.8203125,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0027.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 693.84375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0028.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 699.625,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0029.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 708.90625,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0030.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 718.046875,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0031.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 727.0703125,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0032.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 736.5078125,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0033.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 745.609375,
+    "y": 507.1953125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0034.jpg",
+   "dur": 8,
+   "keys": [
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 565,
+    "y": 532.3490625,
+    "h": 20.480000000000004
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0035.jpg",
+   "dur": 10,
+   "keys": [
+    "⇥"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 591,
+    "y": 532.3490625,
+    "h": 20.480000000000004
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0036.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 599.84375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0037.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 603.484375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0038.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 612.5078125,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0039.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 622.0234375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0040.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 626.2109375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0041.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 634.7265625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0042.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 638.9140625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0043.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 646.9765625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0044.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 652.3984375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0045.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 660.9140625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0046.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 666.6953125,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0047.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 672.3515625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0048.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 681.0625,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0049.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 686.84375,
+    "y": 532.7890625,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0050.jpg",
+   "dur": 8,
+   "keys": [
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 591,
+    "y": 557.9428125,
+    "h": 20.480000000000004
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0051.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 601.203125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0052.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 609.71875,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0053.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 618.09375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0054.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 626.53125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0055.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 630.71875,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0056.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 639.859375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0057.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 648.8828125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0058.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 653.0703125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0059.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 662.953125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0060.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 671.9765625,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0061.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 681,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0062.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 690.515625,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0063.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 699.03125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0064.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 707.09375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0065.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 711.28125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0066.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 724.890625,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0067.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 734.03125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0068.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 739.8125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0069.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 748.9921875,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0070.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 752.6328125,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0071.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 761.65625,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0072.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 771.09375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0073.jpg",
+   "dur": 24,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 644.8515625,
+    "y": 491.1015625
+   },
+   "caret": {
+    "x": 771.09375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "Enter for a new bullet, Tab to nest",
+   "scene": "typing",
+   "cam": {
+    "s": 1.4,
+    "x": 769,
+    "y": 561.3984375
+   }
+  },
+  {
+   "src": "frames/0074.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 690.84375,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 771.09375,
+    "y": 558.3828125,
+    "h": 19
+   },
+   "caption": "⌘↵ completes an item",
+   "scene": "complete",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0075.jpg",
+   "dur": 12,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 690.84375,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 676.84375,
+    "y": 276.8515625,
+    "h": 19
+   },
+   "caption": "⌘↵ completes an item",
+   "scene": "complete",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0076.jpg",
+   "dur": 40,
+   "keys": [
+    "⌘",
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 690.84375,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 676.84375,
+    "y": 276.8515625,
+    "h": 19
+   },
+   "caption": "⌘↵ completes an item",
+   "scene": "complete",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0077.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 576.0,
+    "y": 389.0234375
+   },
+   "caret": {
+    "x": 676.84375,
+    "y": 276.8515625,
+    "h": 19
+   },
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0078.jpg",
+   "dur": 4,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 585.1666666666666,
+    "y": 374.7604166666667
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0079.jpg",
+   "dur": 4,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 594.3333333333334,
+    "y": 360.4973958333333
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0080.jpg",
+   "dur": 4,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 603.5,
+    "y": 346.234375
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0081.jpg",
+   "dur": 4,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 612.6666666666666,
+    "y": 331.9713541666667
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0082.jpg",
+   "dur": 4,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 621.8333333333334,
+    "y": 317.7083333333333
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0083.jpg",
+   "dur": 18,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 631.0,
+    "y": 303.4453125
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0084.jpg",
+   "dur": 36,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 631.0,
+    "y": 303.4453125
+   },
+   "caret": null,
+   "caption": "Drag any bullet to reorganize",
+   "scene": "drag",
+   "cam": {
+    "s": 1.35,
+    "x": 851,
+    "y": 312.2421875
+   }
+  },
+  {
+   "src": "frames/0085.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 550.0,
+    "y": 261.0546875
+   },
+   "caret": null,
+   "caption": "Click any bullet to zoom in",
+   "scene": "zoom",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0086.jpg",
+   "dur": 50,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 550.0,
+    "y": 261.0546875
+   },
+   "caret": {
+    "x": 539,
+    "y": 200.0703125,
+    "h": 19
+   },
+   "caption": "Click any bullet to zoom in",
+   "scene": "zoom",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0087.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 539,
+    "y": 200.0703125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0088.jpg",
+   "dur": 10,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 730.8515625,
+    "y": 276.8515625,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0089.jpg",
+   "dur": 8,
+   "keys": [
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 565,
+    "y": 302.0053125,
+    "h": 20.480000000000004
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0090.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 576.5625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0091.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 585.703125,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0092.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 591.203125,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0093.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 599.9140625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0094.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 607.9765625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0095.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 612.1640625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0096.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 615.8046875,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0097.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 624.828125,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0098.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 629.015625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0099.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 634.8125,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0100.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 640.609375,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0101.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 650.8359375,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0102.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 658.1953125,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0103.jpg",
+   "dur": 3,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 667.0234375,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0104.jpg",
+   "dur": 30,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 667.0234375,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0105.jpg",
+   "dur": 14,
+   "keys": [
+    "↵"
+   ],
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 744.8515625,
+    "y": 286.3515625
+   },
+   "caret": {
+    "x": 693.140625,
+    "y": 302.4453125,
+    "h": 19
+   },
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0106.jpg",
+   "dur": 36,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 1100,
+    "y": 600
+   },
+   "caret": null,
+   "caption": "[[ links any note in your vault",
+   "scene": "links",
+   "cam": {
+    "s": 1.35,
+    "x": 825,
+    "y": 286.6484375
+   }
+  },
+  {
+   "src": "frames/0107.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 335.66015625,
+    "y": 100.06640625
+   },
+   "caret": null,
+   "caption": "Breadcrumbs take you back out",
+   "scene": "crumbs",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0108.jpg",
+   "dur": 40,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 335.66015625,
+    "y": 100.06640625
+   },
+   "caret": {
+    "x": 601.546875,
+    "y": 225.6640625,
+    "h": 19
+   },
+   "caption": "Breadcrumbs take you back out",
+   "scene": "crumbs",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0109.jpg",
+   "dur": 16,
+   "keys": null,
+   "click": false,
+   "move": true,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": {
+    "x": 601.546875,
+    "y": 225.6640625,
+    "h": 19
+   },
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0110.jpg",
+   "dur": 8,
+   "keys": null,
+   "click": true,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0111.jpg",
+   "dur": 5,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0112.jpg",
+   "dur": 5,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0113.jpg",
+   "dur": 5,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0114.jpg",
+   "dur": 5,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0115.jpg",
+   "dur": 5,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0116.jpg",
+   "dur": 60,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": {
+    "x": 1240,
+    "y": 100.0703125
+   },
+   "caret": null,
+   "caption": "Search filters the whole outline as you type",
+   "scene": "search",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  },
+  {
+   "src": "frames/0117.jpg",
+   "dur": 20,
+   "keys": null,
+   "click": false,
+   "move": false,
+   "cursor": null,
+   "caret": null,
+   "caption": "",
+   "scene": "final",
+   "cam": {
+    "s": 1,
+    "x": 720,
+    "y": 405
+   }
+  }
+ ],
+ "markdown": "- Work\n\t- Ship Flow Outliner v0.1 #launch\n\t\t- Write the README\n\t\t- Record a demo video\n\t\t- Publish on GitHub\n\t- Weekly review every Friday\n- Personal\n\t- Trip to Japan #travel\n\t\t- [x] Book flights\n\t\t- Kyoto\n\t\t\t- Ryokan near Gion\n\t\t\t- Fushimi Inari at sunrise\n\t\t\t- Notes in [[Kyoto]]\n\t\t- Tokyo\n\t\t\t- Shibuya at night\n\t\t\t- Tsukiji outer market\n\t- Reading list\n\t\t- The Pragmatic Programmer\n\t\t- Thinking, Fast and Slow\n- Ideas #inbox\n\t- Learn to bake sourdough\n\t\t- Find a starter\n\t\t- Bake on Sunday morning\n"
+}

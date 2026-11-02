@@ -1,0 +1,556 @@
+/* Flow Outliner: a calm, Workflowy-style outline. All colors come from the active Obsidian theme. */
+
+.flow-view {
+	--flow-indent: 26px;
+	--flow-gutter: 22px;
+	--flow-bullet-size: 6px;
+	--flow-line-height: 1.6;
+	--flow-font-size: var(--font-text-size, 16px);
+	--flow-guide: var(--background-modifier-border);
+	--flow-guide-hover: var(--text-faint);
+	--flow-bullet: var(--text-muted);
+	--flow-halo: var(--background-modifier-hover);
+	--flow-selected: color-mix(in srgb, var(--interactive-accent) 16%, transparent);
+	padding: 0 !important;
+	outline: none;
+	font-size: var(--flow-font-size);
+	scroll-behavior: auto;
+}
+
+/* ---------------------------------------------------------------- top bar */
+
+.flow-topbar {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 8px 20px;
+	background: var(--background-primary);
+	border-bottom: 1px solid transparent;
+	transition: border-color 120ms ease;
+}
+.flow-view.is-searching .flow-topbar {
+	border-bottom-color: var(--background-modifier-border);
+}
+
+.flow-crumbs {
+	flex: 1;
+	min-width: 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	gap: 6px;
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+.flow-crumb {
+	color: var(--text-muted);
+	text-decoration: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 220px;
+	flex-shrink: 1;
+	cursor: pointer;
+}
+a.flow-crumb:hover {
+	color: var(--text-normal);
+	text-decoration: underline;
+}
+.flow-crumb.is-current {
+	cursor: default;
+	opacity: 0;
+}
+.flow-crumb-sep {
+	color: var(--text-faint);
+	flex-shrink: 0;
+}
+
+.flow-search {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex: 0 1 240px;
+	min-width: 120px;
+}
+.flow-search-icon {
+	position: absolute;
+	left: 8px;
+	display: flex;
+	color: var(--text-faint);
+	pointer-events: none;
+}
+.flow-search-icon svg,
+.flow-search-clear svg {
+	width: 14px;
+	height: 14px;
+}
+.flow-search .flow-search-input {
+	width: 100%;
+	height: 28px;
+	padding: 0 26px 0 28px;
+	font-size: var(--font-ui-small);
+	border-radius: 14px;
+	background: var(--background-modifier-form-field);
+	border: 1px solid var(--background-modifier-border);
+	transition: border-color 120ms ease, box-shadow 120ms ease;
+}
+.flow-search .flow-search-input:focus {
+	border-color: var(--interactive-accent);
+	box-shadow: 0 0 0 2px color-mix(in srgb, var(--interactive-accent) 20%, transparent);
+}
+.flow-search-clear {
+	position: absolute;
+	right: 6px;
+	display: none;
+	color: var(--text-faint);
+	cursor: pointer;
+	padding: 2px;
+	border-radius: 50%;
+}
+.flow-search-clear:hover {
+	color: var(--text-normal);
+}
+.flow-view.is-searching .flow-search-clear {
+	display: flex;
+}
+
+/* ---------------------------------------------------------------- page */
+
+.flow-page {
+	position: relative;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 18px 28px 40vh 28px;
+	line-height: var(--flow-line-height);
+}
+.flow-page.flow-anim-in {
+	animation: flow-zoom-in 200ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.flow-page.flow-anim-out {
+	animation: flow-zoom-out 200ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+@keyframes flow-zoom-in {
+	from {
+		opacity: 0;
+		transform: translateY(6px) scale(0.99);
+	}
+}
+@keyframes flow-zoom-out {
+	from {
+		opacity: 0;
+		transform: translateY(-6px) scale(1.01);
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.flow-page.flow-anim-in,
+	.flow-page.flow-anim-out {
+		animation: none;
+	}
+}
+
+.flow-banner {
+	margin: 0 0 14px;
+	padding: 8px 12px;
+	border-radius: var(--radius-m);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+.flow-banner a {
+	cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- title */
+
+.flow-title-wrap {
+	margin: 4px 0 14px 0;
+}
+.flow-title {
+	font-size: 1.9em;
+	font-weight: 700;
+	line-height: 1.25;
+	letter-spacing: -0.015em;
+	color: var(--text-normal);
+	outline: none;
+	word-break: break-word;
+	min-height: 1.25em;
+}
+.flow-title.is-root {
+	cursor: default;
+}
+.flow-title.is-completed {
+	text-decoration: line-through;
+	color: var(--text-faint);
+}
+.flow-title-note {
+	margin: 6px 0 0 !important;
+}
+
+/* ---------------------------------------------------------------- rows */
+
+.flow-node {
+	position: relative;
+}
+
+.flow-row {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	border-radius: var(--radius-s);
+	margin-left: calc(-1 * var(--flow-gutter));
+	transition: background-color 80ms ease;
+}
+/* a selected item is highlighted as a whole: text, note and children */
+.flow-node.is-selected::before {
+	content: "";
+	position: absolute;
+	inset: 0 0 0 calc(-1 * var(--flow-gutter) + 4px);
+	border-radius: var(--radius-s);
+	background: var(--flow-selected);
+	pointer-events: none;
+}
+.flow-node.is-selected .flow-node.is-selected::before {
+	display: none;
+}
+
+.flow-toggle {
+	flex: 0 0 var(--flow-gutter);
+	height: calc(var(--flow-line-height) * 1em);
+	position: relative;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 100ms ease;
+}
+.flow-node.has-children > .flow-row:hover > .flow-toggle {
+	opacity: 1;
+}
+.flow-node.has-children > .flow-row > .flow-toggle::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 6px;
+	height: 6px;
+	border-right: 1.5px solid var(--text-muted);
+	border-bottom: 1.5px solid var(--text-muted);
+	transform: translate(-70%, -70%) rotate(45deg);
+	transition: transform 140ms ease;
+}
+.flow-node.has-children.is-collapsed > .flow-row > .flow-toggle::before {
+	transform: translate(-75%, -50%) rotate(-45deg);
+}
+.flow-node:not(.has-children) > .flow-row > .flow-toggle {
+	cursor: default;
+}
+
+.flow-bullet {
+	flex: 0 0 18px;
+	height: calc(var(--flow-line-height) * 1em);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	touch-action: none;
+	margin-right: 6px;
+	position: relative;
+}
+.flow-bullet::before {
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: transparent;
+	transition: background-color 100ms ease, transform 100ms ease;
+}
+.flow-bullet:hover::before,
+.flow-node.is-collapsed > .flow-row > .flow-bullet::before {
+	background: var(--flow-halo);
+}
+.flow-node.is-collapsed > .flow-row > .flow-bullet::before {
+	background: color-mix(in srgb, var(--text-muted) 22%, transparent);
+}
+.flow-bullet:hover::before {
+	transform: scale(1.08);
+}
+.flow-dot {
+	position: relative;
+	width: var(--flow-bullet-size);
+	height: var(--flow-bullet-size);
+	border-radius: 50%;
+	background: var(--flow-bullet);
+}
+.flow-node.is-completed > .flow-row > .flow-bullet .flow-dot {
+	opacity: 0.5;
+}
+
+.flow-check {
+	flex: 0 0 15px;
+	height: calc(var(--flow-line-height) * 1em);
+	margin-right: 8px;
+	position: relative;
+	cursor: pointer;
+}
+.flow-check::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 13px;
+	height: 13px;
+	transform: translateY(-50%);
+	border: 1.5px solid var(--text-muted);
+	border-radius: 3px;
+	box-sizing: border-box;
+	transition: background-color 100ms ease, border-color 100ms ease;
+}
+.flow-check.is-checked::before {
+	background: var(--interactive-accent);
+	border-color: var(--interactive-accent);
+}
+.flow-check.is-checked::after {
+	content: "";
+	position: absolute;
+	left: 4.5px;
+	top: 50%;
+	width: 3.5px;
+	height: 7px;
+	border-right: 1.75px solid var(--text-on-accent);
+	border-bottom: 1.75px solid var(--text-on-accent);
+	transform: translateY(-65%) rotate(45deg);
+}
+.flow-check.is-implicit {
+	display: none;
+}
+
+/* ---------------------------------------------------------------- editable text */
+
+.flow-editable {
+	outline: none;
+	word-break: break-word;
+	white-space: pre-wrap;
+	caret-color: var(--interactive-accent);
+}
+.flow-text {
+	flex: 1;
+	min-width: 0;
+	min-height: calc(var(--flow-line-height) * 1em);
+	padding-right: 4px;
+	color: var(--text-normal);
+}
+.flow-node.is-completed > .flow-row > .flow-text {
+	text-decoration: line-through;
+	text-decoration-color: var(--text-faint);
+	color: var(--text-faint);
+	transition: color 200ms ease;
+}
+
+.flow-note {
+	margin: -1px 0 3px calc(18px + 6px);
+	font-size: 0.87em;
+	line-height: 1.5;
+	color: var(--text-muted);
+	min-height: 1.5em;
+}
+.flow-note:not([data-raw="1"]) {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	white-space: normal;
+}
+.flow-note:not([data-raw="1"]) .flow-note-line {
+	display: block;
+	white-space: pre-wrap;
+}
+.flow-node.is-completed > .flow-note {
+	color: var(--text-faint);
+}
+.flow-title-wrap > .flow-note {
+	font-size: 0.95em;
+}
+
+/* inline formatting */
+.flow-editable .flow-link {
+	color: var(--link-color);
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, var(--link-color) 40%, transparent);
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
+.flow-editable .flow-link:hover {
+	text-decoration-color: var(--link-color);
+}
+.flow-editable .flow-tag {
+	color: var(--text-muted);
+	text-decoration: underline;
+	text-decoration-color: var(--text-faint);
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
+.flow-editable .flow-tag:hover {
+	color: var(--text-normal);
+}
+.flow-editable .flow-mention {
+	color: var(--text-accent);
+	text-decoration-color: color-mix(in srgb, var(--text-accent) 40%, transparent);
+}
+.flow-editable .flow-code {
+	font-family: var(--font-monospace);
+	font-size: 0.88em;
+	padding: 0.1em 0.3em;
+	border-radius: var(--radius-s);
+	background: var(--code-background);
+}
+.flow-editable mark.flow-mark {
+	background: var(--text-highlight-bg);
+	color: inherit;
+}
+.flow-editable mark.flow-hl {
+	background: color-mix(in srgb, var(--text-highlight-bg) 100%, transparent);
+	color: inherit;
+	border-radius: 2px;
+}
+
+/* ---------------------------------------------------------------- children & guides */
+
+.flow-children {
+	position: relative;
+	padding-left: var(--flow-indent);
+	animation: flow-fade 140ms ease;
+}
+.flow-children::before {
+	content: "";
+	position: absolute;
+	left: 8.5px; /* under the parent's bullet centre */
+	top: 0;
+	bottom: 4px;
+	width: 1px;
+	background: var(--flow-guide);
+	transition: background-color 120ms ease;
+}
+.flow-children:hover::before {
+	background: var(--flow-guide-hover);
+}
+@keyframes flow-fade {
+	from {
+		opacity: 0;
+		transform: translateY(-2px);
+	}
+}
+
+/* ---------------------------------------------------------------- empty / add */
+
+.flow-empty {
+	color: var(--text-faint);
+	font-size: var(--font-ui-small);
+	padding: 4px 0;
+}
+.flow-add {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 18px;
+	height: 18px;
+	margin: 6px 0 0 0;
+	border-radius: 50%;
+	color: var(--text-faint);
+	cursor: pointer;
+	opacity: 0.6;
+	transition: opacity 100ms ease, background-color 100ms ease, color 100ms ease;
+}
+.flow-add:hover {
+	opacity: 1;
+	color: var(--text-normal);
+	background: var(--flow-halo);
+}
+.flow-add svg {
+	width: 14px;
+	height: 14px;
+}
+
+/* ---------------------------------------------------------------- drag */
+
+.flow-view.is-dragging,
+.flow-view.is-dragging * {
+	cursor: grabbing !important;
+}
+.flow-node.is-drag-source {
+	opacity: 0.35;
+}
+.flow-drop-indicator {
+	position: absolute;
+	height: 2px;
+	border-radius: 1px;
+	background: var(--interactive-accent);
+	pointer-events: none;
+	z-index: 4;
+}
+.flow-drop-indicator::before {
+	content: "";
+	position: absolute;
+	left: -4px;
+	top: -3px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 2px solid var(--interactive-accent);
+	background: var(--background-primary);
+	box-sizing: border-box;
+}
+
+/* ---------------------------------------------------------------- suggest popup */
+
+.flow-suggest {
+	position: fixed;
+	z-index: var(--layer-popover);
+	max-width: 320px;
+	min-width: 220px;
+}
+
+/* ---------------------------------------------------------------- mobile toolbar */
+
+.flow-mobile-bar {
+	position: sticky;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	gap: 2px;
+	padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+	background: var(--background-secondary);
+	border-top: 1px solid var(--background-modifier-border);
+	z-index: 3;
+}
+.flow-mobile-bar button {
+	flex: 1;
+	background: none;
+	box-shadow: none;
+}
+
+/* ---------------------------------------------------------------- misc */
+
+.flow-capture-input {
+	width: 100%;
+}
+.flow-shortcuts td {
+	padding: 4px 12px 4px 0;
+	vertical-align: top;
+	font-size: var(--font-ui-small);
+}
+.flow-shortcuts kbd {
+	white-space: nowrap;
+}
+
+.is-mobile .flow-page {
+	padding: 12px 16px 40vh 30px;
+}
+.is-mobile .flow-toggle {
+	opacity: 1;
+}
+.is-mobile .flow-topbar {
+	padding: 6px 12px;
+}

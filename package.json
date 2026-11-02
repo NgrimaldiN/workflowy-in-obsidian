@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-flow-outliner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Workflowy-style infinite outliner view for Obsidian, backed by plain Markdown lists.",
+  "scripts": {
+    "build": "tsc --noEmit -p . && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "test": "node --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "0.25.12",
+    "obsidian": "1.10.3",
+    "typescript": "5.9.3"
+  }
+}

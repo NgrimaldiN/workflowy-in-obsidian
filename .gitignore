@@ -1,0 +1,7 @@
+node_modules/
+main.js
+*.map
+.DS_Store
+demo/node_modules/
+demo/out/
+demo/public/frames/
